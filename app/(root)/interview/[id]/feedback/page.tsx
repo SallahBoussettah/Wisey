@@ -89,7 +89,7 @@ const Page = async ({ params }: RouteParams) => {
                 </Button>
 
                 <Button className='btn-primary flex-1'>
-                    <Link href="/interview/${id}" className='flex w-full justify-center'>
+                    <Link href={`/interview/${id}`} className='flex w-full justify-center'>
                         <p className='text-sm font-semibold text-black text-center'>
                             Retake Interview
                         </p>
